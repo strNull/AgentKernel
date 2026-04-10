@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgentKernel.Abstractions\AgentKernel.Abstractions.csproj" />
+    <ProjectReference Include="..\AgentKernel.Core\AgentKernel.Core.csproj" />
+    <ProjectReference Include="..\AgentKernel.Extensions.Photo\AgentKernel.Extensions.Photo.csproj" />
+    <ProjectReference Include="..\AgentKernel.Extensions.Shell\AgentKernel.Extensions.Shell.csproj" />
+    <ProjectReference Include="..\AgentKernel.Extensions.Chat\AgentKernel.Extensions.Chat.csproj" />
+    <ProjectReference Include="..\AgentKernel.Providers.Zhipu\AgentKernel.Providers.Zhipu.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.local.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+</Project>
