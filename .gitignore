@@ -8,5 +8,3 @@
 build-*.txt
 *-build.txt
 appsettings.local.json
-.aider.chat.history.md
-.aider*
